@@ -64,6 +64,16 @@ export class AppComponent {
         const setOrdersMap = new Map<string, number>(); // Map to track set orders for unique exercise and date combinations
 
         const exerciseMappings = {
+            "Single Leg Kickback": "Glute Kickback on Floor",
+            "Single Arm Dumbbell Tricep Extension": "Single Arm Tricep Extension (Dumbbell)",
+            "Seated Tricep Press": "Seated Triceps Press",
+            "Reverse Dumbbell Curl": "Reverse Curl (Dumbbell)",
+            "Scissor Kick": "Ab Scissors",
+            "Pike Push Up": "Pike Pushup",
+            "Leg Raise": "Lying Leg Raise",
+            "Incline Dumbbell Row": "Chest Supported Incline Row (Dumbbell)",
+            "Incline Dumbbell Curl": "Seated Incline Curl (Dumbbell)",
+            "Elevated Hip Bridge": "Hip Thrust",
             "Jackknife Sit-Up": "Jackknife Sit Up",
             "Hammer Curls": "Hammer Curl (Dumbbell)",
             "Dumbbell Squat": "Squat (Dumbbell)",
@@ -75,8 +85,8 @@ export class AppComponent {
             "Dumbbell Fly": "Chest Fly (Dumbbell)",
             "Dumbbell Bent Over Reverse Fly": "Rear Delt Reverse Fly (Dumbbell)",
             "Bodyweight Bulgarian Split Squat": "Bulgarian Split Squat",
-            "Vertical Leg Raise:": "Leg Raise Parallel Bars",
-            "Single Leg Leg Extension": "Single Leg Extension",
+            "Vertical Leg Raise": "Leg Raise Parallel Bars",
+            "Single Leg Leg Extension": "Single Leg Extensions",
             "Air Squats": "Squat (Bodyweight)",
             "Dumbbell Bent Over Row": "Bent Over Row (Dumbbell)",
             "Decline Sit Up": "Decline Crunch",
@@ -96,7 +106,7 @@ export class AppComponent {
             "Standing Arnold Press": "Arnold Press (Dumbbell)",
             "Arnold Dumbbell Press": "Arnold Press (Dumbbell)",
             "Standing Dumbbell Shoulder Press": "Overhead Press (Dumbbell)",
-            "Dumbbell Shoulder Press": "Overhead Press (Dumbbell)",
+            "Dumbbell Shoulder Press": "Shoulder Press (Dumbbell)",
             "Seated Barbell Shoulder Press": "Seated Overhead Press (Barbell)",
             "Machine Shoulder Press": "Seated Shoulder Press (Machine)",
             "Barbell Shoulder Press": "Overhead Press (Barbell)",
@@ -191,7 +201,7 @@ export class AppComponent {
                 Seconds: 0,
                 Notes: null,
                 "Workout Notes": null,
-                "Workout Duration": "30m",
+                "Workout Duration": "60m",
             });
         });
 
